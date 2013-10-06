@@ -1,0 +1,62 @@
+datastructure content:
+=====================
+1. Basic binary search tree
+	-insert
+	-delete
+	-in-order & post-order traverse
+
+2. AVL Tree
+	-insert
+	-delete
+	-in-order & post-order traverse
+	
+3. Treap Tree
+	-insert
+	-delete
+	-in-order & post-order traverse
+	
+4. Trie Tree
+	-insert
+	-delete
+	-in-order & post-order traverse
+
+5. Splay Tree
+	-insert
+	-in-order & post-order traverse
+	
+6. Red-black Tree
+	-insert
+	-in-order & post-order traverse
+	
+7. Minimum heap
+	-insert
+		-headUp
+	-deleteMin
+		-headDown
+		
+8. KMP
+
+9. Boyer-Moore
+
+10. Dijkstra
+	算法能求出单源最短路径的最优解，但是遍历的节点多，效率低，且局限于路径权值为非负。无向图。
+	对于非联通的图呢？（注意pre数组的初始化）
+11. Bellman-Ford
+	求解单源最短路径，可用于边权为负的情况。
+12. Floyd-Warshall
+	Calculate the shortest path between any two vertex in a graph.
+	适用范围：
+		有向图，带负权边的图，稠密图（效果好于执行|V|次Dijkstra算法）
+13. Kruskal
+	最小生成树算法（贪心） 适用于无向图？有向图？
+	
+0 -> 0: 0
+0 -> 1: 10
+0 -> 2: 50
+0 -> 3: 30
+0 -> 4: 60
+0 -> 0
+0 -> 1
+0 -> 3 -> 2
+0 -> 3
+0 -> 3 -> 2 -> 4
